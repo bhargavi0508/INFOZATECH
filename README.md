@@ -42,3 +42,42 @@ Artificial Intelligence Virtual Internship – InfozaTech
 
 ### Author
 Bhargavi
+
+
+
+## Task 2: AI Cat vs Dog Classifier
+
+### Project Overview
+An image classification application that identifies whether an uploaded image contains a cat or a dog using transfer learning with a pretrained ResNet18 model.
+
+### Features
+- Upload cat or dog images (JPG, JPEG, PNG).
+- Predict the animal category automatically.
+- Display prediction confidence and class probabilities.
+- Simple web interface built with Streamlit.
+
+### Technologies Used
+- Python
+- PyTorch
+- Torchvision
+- Streamlit
+- Pillow
+- Transfer Learning (ResNet18)
+
+### Model Testing
+- Cat image: correctly predicted as Cats with 99.76% confidence.
+- Dog image: correctly predicted as Dogs with 99.67% confidence.
+
+*Note: These confidence scores are from individual test images and do not represent overall model accuracy.*
+
+### How to Run
+1. Install the required packages:
+   `pip install -r requirements.txt`
+2. Run the application:
+   `python -m streamlit run app.py`
+
+### Internship
+Artificial Intelligence Virtual Internship – InfozaTech
+
+### Author
+Bhargavi
