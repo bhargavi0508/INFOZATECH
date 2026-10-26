@@ -1,66 +1,49 @@
-
 # 💬 Sentiment Analysis Tool
 
-## 📌 Project Overview
-The Sentiment Analysis Tool is a Python-based application that analyzes text and identifies whether the sentiment is Positive, Negative, or Neutral.
+A Python-based sentiment analysis application developed as part of the **InfozaTech AI Internship — Task 3**.
 
-This project was developed as part of the **InfozaTech Artificial Intelligence Internship – Task 3**.
+## 📌 Project Overview
+
+This tool analyzes text such as sentences, product reviews, and customer feedback, then classifies the sentiment as Positive, Negative, or Neutral.
 
 ## ✨ Features
-- Analyze text, product reviews, and customer feedback.
+
+- Analyze user-entered text.
 - Classify sentiment as Positive, Negative, or Neutral.
 - Display a compound sentiment score.
-- Show positive, neutral, and negative sentiment scores.
+- Show positive, neutral, and negative score proportions.
 - Interactive web interface built with Streamlit.
-- Instant analysis of user-provided text.
 
 ## 🛠️ Technologies Used
+
 - Python
 - Streamlit
 - VADER Sentiment Analysis
-- VS Code
-- Git and GitHub
 
-## ⚙️ Installation and Setup
+## 🚀 How to Run
 
 1. Clone or download this repository.
-2. Open the `Task-3-Sentiment-Analysis` folder in VS Code.
-3. Create and activate a Python virtual environment.
-4. Install the required packages:
+2. Open the `Task-3-Sentiment-Analysis` folder in the terminal.
+3. Install the dependencies:
 
    ```bash
    pip install streamlit vaderSentiment
    ```
 
-5. Run the application:
+4. Start the application:
 
    ```bash
-   python -m streamlit run app.py
+   streamlit run app.py
    ```
 
-## 🚀 How to Use
-1. Launch the application.
-2. Enter a sentence, product review, or customer feedback.
-3. Click **Analyze Sentiment**.
-4. View the predicted sentiment and sentiment scores.
+5. Open the local URL displayed in the terminal.
 
-## 📊 Example
+## 🧪 Testing
 
-**Input:**  
-This product is amazing! I really love it.
+Tested with positive, negative, and neutral sample sentences. The application returned the expected sentiment categories for all three tests.
 
-**Output:**  
-- Sentiment: Positive 😊
-- Compound Score: 0.862
+## 🎓 Internship
 
-## 🎯 Learning Outcomes
-- Understanding basic sentiment analysis.
-- Using the VADER sentiment analyzer in Python.
-- Building an interactive web application with Streamlit.
-- Displaying sentiment scores and results.
+**InfozaTech AI Internship | Task 3: Sentiment Analysis**
 
-## 👩‍💻 Author
-Bhargavi
-
-## 🏢 Internship
-InfozaTech – Artificial Intelligence Internship
+**Author:** Bhargavi
